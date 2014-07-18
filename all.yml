@@ -45,3 +45,7 @@
     package_name: atom
   - role: cask_package
     package_name: vagrant
+  - role: cask_package
+    package_name: iterm2
+  - role: cask_package
+    package_name: dash
