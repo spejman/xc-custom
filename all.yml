@@ -12,7 +12,7 @@
     - /Applications/Dash.app
     folders:
     - path: ~/
-    - path: ~/Applications
+    - path: /Applications
     - path: ~/Downloads
       sort: datemodified
   - role: cask_package
@@ -24,9 +24,6 @@
   - role: cask_package
     tap: caskroom/fonts
     package_name: font-source-code-pro
-  - role: cask_package
-    tap: caskroom/fonts
-    package_name: font-sauce-code-powerline
 
   # cli
   # shell tooling
