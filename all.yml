@@ -12,7 +12,7 @@
     - /Applications/Dash.app
     folders:
     - path: ~/
-    - path: /Applications
+    - path: ~/Applications
     - path: ~/Downloads
       sort: datemodified
   - role: cask_package
@@ -46,3 +46,7 @@
     package_name: iterm2
   - role: cask_package
     package_name: dash
+  - role: cask_package
+    package_name: chrome
+  - role: cask_package
+    package_name: spotify
